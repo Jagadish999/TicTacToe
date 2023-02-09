@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script src="JS/btnFunction.js"></script>
+    <script src="JS/defs.js"></script>
+    <script src="JS/twoPlayerController.js"></script>
+    <script src="JS/TicTacToeState.js"></script>
+    <script src="JS/main.js"></script>
 </head>
 <body>
     <div class="main-btn-container">
@@ -15,6 +18,11 @@
 
         <div class="btn-second">
             <button>Player Vs Computer</button>
+        </div>
+
+        <div class="choose">
+            <button class="chooseO">Play: O</button>
+            <button class="chooseX">Play: X</button>
         </div>
 
         <div class="msg">
@@ -45,13 +53,11 @@
             </div>
 
             <div class="controller">
-                <div class="play-move"><button>Play</button></div>
-                <div class="event-msg"><h2>Player1 to Play</h2></div>
-                <div class="exit-btn"><button>Exit</button></div>
+                <div class="move"><button>Play</button></div>
+                <div class="again"><button>Play Again</button></div>
+                <div class="playerMsg"><h2></h2></div>
+                <div class="exit"><button>Exit</button></div>
             </div>
-        </div>
-        <div class="msg-area">
-            <h3>All Event Messages</h3>
         </div>
     </div>
 </body>

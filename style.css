@@ -111,6 +111,19 @@ body{
     width: 166.66px;
     border: 2px solid black;
     text-align: center;
+    font-weight: bolder;
+    font-size: 130px;
 }
 /*_____________________________________________________________________________*/
 
+.again{
+    display: none;
+}
+
+.choose{
+    display: none;
+}
+
+.choose button{
+    margin-left: 25px;
+}
